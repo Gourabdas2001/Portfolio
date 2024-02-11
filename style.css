@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+   background-color: #03021b;
+   font-family: 'Ibarra Real Nova', serif;
+   color: white;
+   font-size: 25px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 96px;
+    background-color: rgb(2, 2, 68);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:  0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:rgb(199, 199, 245);
+}
+.left{
+    font-size: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+    margin: 120px 0;
+    align-items: center;
+}
+.firstsection > div{
+  width: 30%;
+}
+.leftsection{
+    /* background-color: red; */
+    margin: 50px 0;
+    margin-left: 80px;
+    font-size: 3.5rem;
+    text-shadow: 2pc;
+}
+main hr{
+    border: 0;
+    background-color: rgb(153, 153, 226);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.purple{
+    color: rgb(154, 19, 207);
+}
+text-gray{
+    color: gray;
+}
+#element{
+    color: rgb(154, 19, 207);
+}
+.rightsection{
+    /* background-color: red; */
+}
+
+.rightsection img{
+    /* background-color: red; */
+    
+    width: 80%;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto; 
+    height: 25vw;
+   
+}
+.secondsection h1{
+   font-size: 1.9rem;
+}
+.secondsection .box{
+    background: white;
+    margin: 56px 0px;
+    width: 78vw;
+    height: 2px;
+    display: flex;
+}
+.secondsection .vertical{
+   
+    width: 1px;
+    height: 93px;
+    background-color: white;
+    margin: 0 150px;
+}
+.image-top{
+    width: 30px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 200px;
+    font-size: 20px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 19px;
+}
